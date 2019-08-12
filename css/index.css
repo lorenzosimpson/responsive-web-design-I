@@ -240,16 +240,23 @@ footer p {
         display: flex;
         justify-content: center;
         border-top: 1px solid gray;
-        
+        padding: 20px; 
     }
-    header img {
-        margin: 10px;
+    .intro-container {
+        border-top: 1px solid gray;
     }
+  
     .top-content {
         display: flex;
         flex-direction: column;
         margin: 20px;
-
+    }
+    .top-content .features {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .top-content .about {
+        width: 100%;
     }
     .middle-img-container {
         display: flex;
@@ -260,10 +267,18 @@ footer p {
         display: flex;
         flex-direction: column;
         margin: 20px;
-
+    }
+    .bottom-content .services {
+        width: 100%;
+        margin-bottom: 20px;
     }
     .bottom-content .product {
         margin: 0px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .bottom-content .vision {
+        width: 100%;
     }
     .contact-content {
         margin: 20px;
