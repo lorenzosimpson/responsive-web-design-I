@@ -1,4 +1,3 @@
-/* Use your own code or past solution for Great Idea Web Page CSS here! */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -63,244 +62,127 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-/* start here */
+
+/* Your code starts here! */
 
 .container {
-	display: flex;
-	justify-content: center;
+	width: 880px;
+	/* border: 10px dashed black; */
+	margin: auto;
 }
-.container .navigation {
-	display: flex;
-	margin-left: 50px;
+
+header {
+	/* border: 5px dashed orange; */
+	padding: 20px 20px 20px;
+
 }
-.container .navigation .links {
-	display: flex;
-	justify-content: space-between;
-	padding: 20px 60px;
+
+nav {
+	/* border: 3px solid red; */
+	display: inline-block;
+	width: 75%;
 }
-.middle {
-	display: flex;
-	justify-content: center;
-	margin-top: 70px;
+nav a {
+	color: grey;
+	text-decoration: none;
+	padding: 0 25px 0px;
+	/* border: 3px solid blue; */
 }
-.middle .left-side {
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	margin-right: 70px;
+
+.intro-container {
+	text-align: center;
+	/* border: 3px solid green; */
 }
-.middle .left-side .innovation {
-	font-size: 72px;
-	margin-top: 40px;
+.intro  {
+	/* border: 4px dashed red; */
+	display: inline-block;
+	width: 450px;
+	text-align: center;
+	padding: 0px 0px 40px;
 }
-.middle .left-side .button {
-	margin-left: 0px;
-	width: 200px;
-	font-size: 14px;	
+
+ .intro h1 {
+	font-size: 50pt;
+	/* border: 1px dashed red; */
+}  
+
+
+.introimg {
+	width: 30%;
+	/* border: 1px dashed red; */
+	display: inline-block;
+	/* TRBL*/
+	padding: 20px 10px 10px 20px;
 }
-.text1 {
-	display: flex;
-	justify-content: space-between;
-	margin: 40px 290px;
+
+.intro button {
+	padding: 5px 40px 5px;
+	border: 1px solid black;
+	font-family: 'Titillium Web';
 }
-.text1 .features-section {
-	display: flex;
-	flex-wrap: wrap;
-}	
-.center-img {
-	display: flex;
-	justify-content: center;
+
+header p {
+	text-align: center;
+	border: 1px solid black;
+	width: 150px;
 }
-.text2 {
-	display: flex;
-	margin: 40px 290px;
+.codeimg {
+	width: 30%;
+	height: 30%;
+	/*TRBL*/
+	padding: 0 20px 20px 100px;
 }
-.contact {
-	display: flex;
-	justify-content: center;
-	width: 50%;	
-}
-.footer {
-	display: flex;
-	justify-content: center;
-	font-size: 12px;
+
+.top-content {
+	border-top: 1px solid black;
+	padding: 30px 0 30px;
 }
 
 
-
-/* CSS FOR SERVICES PAGE */
-.header-image {
-	display: flex;
-	justify-content: center;
+.top-content .features {
+	display: inline-block;
+	/* border: 1px solid red; */
+	width: 49%;
+	margin-right: 5px;
 }
 
-.services-desc {
-	display: flex;
-	flex-direction: column;
-	margin: 50px 200px;
-}
-.services-desc h2 {
-	font-size: 40px;
-}
-.content-grid {
-	display: flex;
-	justify-content: center;
-	margin: 80px 	200px;	
-	flex-wrap: wrap;
-	border-top: black 2px solid;
-	border-bottom: black 2px solid;
-}
-.content-grid .row1 {
-	display: flex;
-	margin: 40px;
-}
-/* INDIVIDUAL BOXES  */
-.design-box {
-	background-color: #eeeeee;
-	border: 1px solid black;
-	height: 250px;
-	width: 400px;
-	margin-right: 30px;
-}
-.design-box h3 {
-	margin: 15px;
-}
-.design-box p {
-	margin: 15px;
-	line-height: 20px;
-}
-.design-box button {
-	padding: 10px 40px;
-	margin: 5px 15px;
-	border: solid black 1px;
-	border-radius: 4px;
-}
-.ux-box {
-	background-color: #eeeeee;
-	border: 1px solid black;
-	height: 250px;
-	width: 400px;
-	margin-right: 30px;
-}
-.ux-box h3 {
-	margin: 15px;
-}
-.ux-box p {
-	margin: 15px;
-	line-height: 20px;
-}
-.ux-box button {
-	padding: 10px 40px;
-	margin: 5px 15px;
-	border: solid black 1px;
-	border-radius: 4px;
-}
-/* row 2 */
-.content-grid .row2 {
-	display: flex;
-	margin: 40px;
-}
-.marketing-box {
-	background-color: #eeeeee;
-	border: 1px solid black;
-	height: 250px;
-	width: 400px;
-	margin-right: 30px;
-}
-.marketing-box h3 {
-	margin: 15px;
-}
-.marketing-box p {
-	margin: 15px;
-	line-height: 20px;
-}
-.marketing-box button {
-	padding: 10px 40px;
-	margin: 5px 15px;
-	border: solid black 1px;
-	border-radius: 4px;
-}
-.webdev-box {
-	background-color: #eeeeee;
-	border: 1px solid black;
-	height: 250px;
-	width: 400px;
-	margin-right: 30px;
-}
-.webdev-box h3 {
-	margin: 15px;
-}
-.webdev-box p {
-	margin: 15px;
-	line-height: 20px;
-}
-.webdev-box button {
-	padding: 10px 40px;
-	margin: 5px 15px;
-	border: solid black 1px;
-	border-radius: 4px;
-}
-/* row 3 */
-.content-grid .row3 {
-	display: flex;
-	margin: 40px;
-}
-.ios-box {
-	background-color: #eeeeee;
-	border: 1px solid black;
-	height: 250px;
-	width: 400px;
-	margin-right: 30px;
-}
-.ios-box h3 {
-	margin: 15px;
-}
-.ios-box p {
-	margin: 15px;
-	line-height: 20px;
-}
-.ios-box button {
-	padding: 10px 40px;
-	margin: 5px 15px;
-	border: solid black 1px;
-	border-radius: 4px;
-}
-.android-box {
-	background-color: #eeeeee;
-	border: 1px solid black;
-	height: 250px;
-	width: 400px;
-	margin-right: 30px;
-}
-.android-box h3 {
-	margin: 15px;
-}
-.android-box p {
-	margin: 15px;
-	line-height: 20px;
-}
-.android-box button {
-	padding: 10px 40px;
-	margin: 5px 15px;
-	border: solid black 1px;
-	border-radius: 4px;
-}
-/* services */
-
-.services-facts-container {
-	display: flex;
-	margin: 100px 250px;
-}
-.services-left {
-	display: flex;
-	flex-direction: column;
-}
-.services-left ul {
-	list-style-type: disc;
-	margin: 30px;
-	line-height: 24px;
-}
-.services-facts-container img {
-	margin: 20px;
+.top-content .about {
+	display: inline-block;
+	/* border: 1px solid red; */
+	width: 49%;
 }
 
+.middle-img {
+	display: block;
+	width: 100%;
+}
+
+.bottom-content {
+	border-bottom: 1px solid black;
+	padding: 20px 0 30px;
+}
+
+.bottom-content .services {
+	display: inline-block;
+	width: 32%;
+	/* border: 1px solid red; */
+
+}
+
+.bottom-content .product {
+	display: inline-block;
+	width: 32%;
+	margin: 0px 10px 0px;
+}
+
+.bottom-content .vision {
+	display: inline-block;
+	width: 32%;
+}
+
+.contact-content {
+	margin-top: 30px;
+}
+footer p {
+	text-align: center;
+}
