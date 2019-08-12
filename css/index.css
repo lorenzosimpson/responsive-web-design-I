@@ -192,6 +192,7 @@ footer p {
 }
 /* Media queries */
 
+
 @media screen and (max-width: 800px) {
     .container {
         width: 90%;
@@ -227,5 +228,45 @@ footer p {
 }
 
 @media screen and (max-width: 500px) {
+    .container {
+        width: 100%;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    nav a {
+        display: flex;
+        justify-content: center;
+        border-top: 1px solid gray;
+        
+    }
+    header img {
+        margin: 10px;
+    }
+    .top-content {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+
+    }
+    .middle-img-container {
+        display: flex;
+        justify-content: center;
+        margin: 20px; 
+    }
+    .bottom-content {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+
+    }
+    .bottom-content .product {
+        margin: 0px;
+    }
+    .contact-content {
+        margin: 20px;
+    }
     
 }
